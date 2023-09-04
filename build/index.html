@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Montserrat+Alternates:wght@300;500;600&family=Montserrat:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    <div class="headerB"> 
+        <header class="header">
+  <!--Тут блок з логотипом та навігацією  -->
+             <div class="header__blockLogo">
+
+                <div class="header__blockLogoLine1">
+
+                   <div class="header__searchContainer"> 
+                      <input type="text" class="header__searchInput" placeholder="Пошук">
+                      <button type="button" class="header__searchButton">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15">
+                        <path fill="#FFC700" d="M12.9877 12.3248L10.1897 9.52687C10.8516 8.71875 11.25 7.68656 11.25 6.5625C11.25 3.97781 9.14719 1.875 6.5625 1.875C3.97781 1.875 1.875 3.97781 1.875 6.5625C1.875 9.14719 3.97781 11.25 6.5625 11.25C7.68656 11.25 8.71875 10.8516 9.52687 10.1897L12.3248 12.9877C12.5081 13.1709 12.8044 13.1709 12.9877 12.9877C13.1709 12.8044 13.1709 12.5081 12.9877 12.3248ZM2.8125 6.5625C2.8125 4.49484 4.49484 2.8125 6.5625 2.8125C8.63016 2.8125 10.3125 4.49484 10.3125 6.5625C10.3125 8.63016 8.63016 10.3125 6.5625 10.3125C4.49484 10.3125 2.8125 8.63016 2.8125 6.5625Z" >
+                        </path>
+                      </svg>
+                     </button> 
+                    </div>
+                    
+                    <div class="header__logo">
+                    <img src="./img/LOGO.svg" alt="">
+                    </div>
+
+                        <div class="header__lineBlockLoogo">
+                            <div class="header__logoIconLanguage">
+                                        <div class="header__languageSelector">
+                                            <p><a  class="header__linkIconLanguage" href="#" onclick="changeLanguage('ua')">UA</a> | <a class="header__linkIconLanguage" href="#" onclick="changeLanguage('en')">EN</a></p>
+                                        </div>
+                            </div>        
+                                    
+                        
+                                    
+                                    <div class="header__basket">
+                                        <svg class="header__basketLogo">
+                                            <use href="./img/basketLogo.svg#basketIcon"></use>
+                                        </svg>
+                                    </div>
+                                    
+                                    <div class="header__like">
+                                        <svg class="header__likeLogo">
+                                            <use href="./img/likeLogo.svg#likeIcon"></use>
+                                        </svg>
+                                    </div>
+                
+                
+                
+                                </div>
+                
+                </div> 
+              
+                    
+            <nav class="header__menu">
+            
+                <ul class="header__menuList">
+                    <li class="header__menuItem" onmouseover="hoverEffect(this)" onmouseout="resetStyles(this)"><a href="#" class="header__menuItemLink">Категорія</a></li>
+                    <li class="header__menuItem" onmouseover="hoverEffect(this)" onmouseout="resetStyles(this)"><a href="#" class="header__menuItemLink">Категорія</a></li>
+                    <li class="header__menuItem" onmouseover="hoverEffect(this)" onmouseout="resetStyles(this)"><a href="#" class="header__menuItemLink">Категорія</a></li>
+                    <li class="header__menuItem" onmouseover="hoverEffect(this)" onmouseout="resetStyles(this)"><a href="#" class="header__menuItemLink">Категорія</a></li>
+                    <li class="header__menuItem" onmouseover="hoverEffect(this)" onmouseout="resetStyles(this)"><a href="#" class="header__menuItemLink">Категорія</a></li>
+                    <li class="header__menuItem" onmouseover="hoverEffect(this)" onmouseout="resetStyles(this)"><a href="#" class="header__menuItemLink">Категорія</a></li>
+                    <li class="header__menuItem" onmouseover="hoverEffect(this)" onmouseout="resetStyles(this)"><a href="#" class="header__menuItemLink">Категорія</a></li>
+            
+                </ul>
+            
+            </nav>
+              
+         </div>
+  <!--Тут блок з малюнком-->
+            <div class="header__blockHerro">
+
+                <div class="header__blockHerroText">
+                    <h1 class="header__blockHerroTextHeader"> masons <span class="header__blockHerroTextHeaderYelow">branding</span> wordshop </h1>
+                    <p class="header__blockHerroTextText">Високоякісний друк Брендування одягу та аксесуарів</p>
+                    <button class="header__blockHerroTextButton"> <p class="header__blockHerroTextButtonText">Каталог</p> </button>
+                </div>
+
+                <div class="header__blockHerroIMG">
+                    <img src="./img/herro1.png" alt="Heroo IMG" class="header__blockHerroIMGimg">
+                </div>
+
+            </div>
+           
+        
+
+        
+        </header>
+    </div>
+    
+
+    <h1>hhgh</h1>
+    
+    
+</body>
+<script>
+    function hoverEffect(element) {
+            const menuItemLink = element.querySelector('.header__menuItemLink');
+            menuItemLink.style.transform = 'skewX(20deg)';
+            menuItemLink.style.color = 'black';
+    }
+
+    function resetStyles(element) {
+            const menuItemLink = element.querySelector('.header__menuItemLink');
+            menuItemLink.style.transform = 'skewX(0deg)';
+            menuItemLink.style.color = 'white';
+    }
+      
+</script>
+</html>

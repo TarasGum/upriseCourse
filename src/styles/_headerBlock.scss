@@ -1,0 +1,258 @@
+.header {
+ height: 960px / 1080px * 100vh;
+
+    // .header__blockLogo
+
+
+    &__blockLogo {
+        Width: 70.14vw;
+        padding-top: 20px; 
+        margin-left: 13.89vw;
+
+
+        
+     
+    }
+        &__blockLogoLine1 {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            
+        }
+
+    // .header__searchContainer
+
+    &__searchContainer {
+    Width: 15.625vw;
+    Height: 2.7778vh;
+    Margin-top: 1.5741vh;;
+    Margin-left: 2.1528vw;
+    
+    }
+
+    &__searchInput{
+        Width: 15.625vw;
+        Height: 2.7778vh;
+        border-radius: 15px;
+        border-width: 1px;
+        border-color: #FFFFFF;
+        position: absolute;
+        text-indent: 25px;
+        background-color: transparent;
+        color: #FFFFFF;
+
+
+                
+    }
+   
+    &__searchButton{
+        position: absolute;
+        background: none;
+        border: none;
+        margin-left: 5px / 1440px * 100vw;
+        margin-top: 5px / 1080px * 100vh;
+        width: 15px / 1440px * 100vw;
+        height: 15px / 1080px * 100vh;;
+        
+    }
+
+    // .header__logo
+
+    &__logo {
+        position: relative;
+        width: 184px / 1440px * 100vw;
+        height: 63px / 1080px * 100vh;
+        margin-top: 0;
+        
+    }
+
+    // .header__logoIcon
+
+    &__logoIconLanguage {
+        color: #FFFFFF;
+    }
+
+
+        &__lineBlockLoogo{
+            min-width: 170px / 1440px * 100vw;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 15px / 1080px * 100vh;;
+
+        }
+    // .header__languageSelector
+
+    &__languageSelector {
+        color: #FFFFFF;
+        margin-left: 0;
+        margin-right: 0;
+        min-width: 60px;
+        margin-top: 5px / 1080px * 100vh;;
+
+    }
+
+    &__linkIconLanguage{
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+    // .header__basket
+
+    &__basket {
+        width: 15px;
+        height: 15px;
+        margin-left: 30%;
+    }
+
+    // .header__basketLogo
+
+    &__basketLogo {
+        width: 30px;
+        height: 30px;
+    }
+
+    // .header__like
+
+    &__like {
+        width: 15px;
+        margin-left: 30%;    
+        height: 15px;
+
+    }
+
+    // .header__likeLogo
+
+    &__likeLogo {
+        width: 30px;
+        height: 30px;
+    }
+
+    // .header__menu
+
+    &__menu {
+        margin-top: 25px;
+        margin-left: 0;
+        padding: 0;
+    }
+
+    // .header__menuList
+
+    &__menuList {
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+        margin: 0;
+       
+  
+              
+    }
+
+    // .header__menuItem
+
+    &__menuItem {
+        list-style: none;
+        width: 165px / 1440px * 100vw;
+        height: 50px / 1080px * 100vh;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 0;
+        text-align: center;
+        align-items: center;
+        text-align: center;
+        
+        
+    }
+
+        &__menuItemLink{
+        color: #FFFFFF;
+        text-decoration: none;
+        font-family:  Montserrat; 
+        font-weight:  700; 
+        font-size:  18px / 1440px * 100vw;
+        }
+
+    
+
+        &__menuItem:hover{
+        background-color: #FFFFFF; 
+        transform: skewX(-20deg);
+        transform-origin: left;
+        transition: opacity 2s;
+        }
+
+
+
+&__blockHerro{
+    margin-left: 170px / 1440px * 100vw;
+    height: 810px / 1080px * 100vh;
+   display: flex;
+}
+
+
+&__blockHerroText{
+   width: 540px / 1440px * 100vw;
+   height: 440px / 1080px * 100vh;
+   margin-left: 0;
+   margin-bottom: 220px/ 1080px * 100vh;
+   margin-top: 150px/ 1080px * 100vh;;
+}
+
+
+&__blockHerroTextHeader{
+    font-family: Montserrat;
+    font-weight: 800;
+    font-size: 82px / 1440px * 100vw;
+    line-height: 77.9px  / 1440px * 100vw;
+    color: #F0F0F0;
+    text-transform: uppercase;
+     
+}
+
+&__blockHerroTextHeaderYelow{
+    color: #FFC700;
+}
+
+&__blockHerroTextText{
+    font-family: Montserrat;
+    font-weight: 400; 
+    font-size:  24px / 1440px * 100vw;
+    line-height: 29.26px/ 1440px * 100vw;
+    color: #A8A8A8;
+    width: 500px / 1440px * 100vw;;
+    height: 60px / 1080px * 100vh;
+    margin-top: 35px/ 1080px * 100vh;
+}
+
+
+&__blockHerroTextButton{
+    margin-top: 50px / 1080px * 100vh;
+    margin-left: 0;
+    width: 200px / 1440px * 100vw;
+    height: 60px / 1080px * 100vh;
+    background-color: #FFC700;
+    border-radius: 5%;
+}
+
+&__blockHerroTextButtonText{
+    font-family: Montserrat;  
+    font-weight:  800;
+    font-size: 20px / 1440px * 100vw;
+}
+
+
+&__blockHerroIMG{
+   
+
+}
+
+&__blockHerroIMGimg{
+  width: 675px / 1440px * 100vw;
+  height: 1000px / 1080px * 100vh;
+  margin-top: -203px / 1080px * 100vh;
+  z-index: -1;
+
+}
+      
+}
